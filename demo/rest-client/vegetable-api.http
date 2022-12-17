@@ -1,0 +1,25 @@
+### getById(id)
+GET http://localhost:8080/vegetable/1
+
+### create(vegetable)
+POST http://localhost:8080/vegetable/
+Content-Type: application/json
+
+{
+    "name": "赤パプリカ",
+    "colorId": "1",
+    "price": "100"
+}
+
+### getAll(null)
+GET http://localhost:8080/vegetable/list
+
+
+### getAll(name)
+GET http://localhost:8080/vegetable/list?name=き
+
+### delete(id)
+DELETE http://localhost:8080/vegetable/1
+
+### deleteAll()
+DELETE http://localhost:8080/vegetable/

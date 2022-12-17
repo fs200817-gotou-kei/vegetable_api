@@ -1,0 +1,13 @@
+### getById(id)
+GET http://localhost:8080/color/1
+
+
+
+### create(color)
+POST http://localhost:8080/color/
+Content-Type: application/json
+
+{
+    "nameJa": "赤",
+    "nameEn": "RED"
+}
